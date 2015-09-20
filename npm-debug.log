@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express-genereator',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'express-genereator', null ]
+5 verbose cache add name=undefined spec="express-genereator" args=["express-genereator",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'express-genereator',
+6 verbose parsed url   path: 'express-genereator',
+6 verbose parsed url   href: 'express-genereator' }
+7 silly lockFile fe6da2c3-express-genereator express-genereator
+8 verbose lock express-genereator /home/ubuntu/.npm/fe6da2c3-express-genereator.lock
+9 silly lockFile fe6da2c3-express-genereator express-genereator
+10 silly lockFile fe6da2c3-express-genereator express-genereator
+11 verbose addNamed [ 'express-genereator', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 194f9c45-express-genereator express-genereator@
+14 verbose lock express-genereator@ /home/ubuntu/.npm/194f9c45-express-genereator.lock
+15 silly addNameRange { name: 'express-genereator', range: '*', hasData: false }
+16 verbose request where is /express-genereator
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 0a6b388236bcd891
+19 verbose url raw /express-genereator
+20 verbose url resolving [ 'https://registry.npmjs.org/', './express-genereator' ]
+21 verbose url resolved https://registry.npmjs.org/express-genereator
+22 verbose request where is https://registry.npmjs.org/express-genereator
+23 info trying registry request attempt 1 at 03:53:58
+24 http GET https://registry.npmjs.org/express-genereator
+25 http 404 https://registry.npmjs.org/express-genereator
+26 silly registry.get cb [ 404,
+26 silly registry.get   { 'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=0',
+26 silly registry.get     'content-length': '2',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sun, 20 Sep 2015 03:53:58 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-hkg6820-HKG',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1442721238.519582,VS0,VE233' } ]
+27 silly lockFile 194f9c45-express-genereator express-genereator@
+28 silly lockFile 194f9c45-express-genereator express-genereator@
+29 error 404 Not Found
+29 error 404
+29 error 404 'express-genereator' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Linux 3.14.13-c9
+31 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "express-genereator" "-g"
+32 error cwd /home/ubuntu/workspace
+33 error node -v v0.10.35
+34 error npm -v 1.4.28
+35 error code E404
+36 verbose exit [ 1, true ]
